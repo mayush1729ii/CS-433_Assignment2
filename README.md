@@ -7,6 +7,8 @@ Zeeshan Snehil Bhagat &emsp; 20110242
 If you get any OpenFlow error:
 * Run "sudo apt-get install openvswitch-testcontroller"
 * Run "sudo cp /usr/bin/ovs-testcontroller /usr/bin/ovs-controller"
+
+<br>
 Our code already starts and ends "service openvswitch-switch", so no need to start it, instead start it again if you need it after our code has finished running.
 Program related instructions are in the report itself.
 
