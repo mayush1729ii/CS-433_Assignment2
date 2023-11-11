@@ -12,6 +12,14 @@ If you get any OpenFlow error:
 Our code already starts and ends "service openvswitch-switch", so no need to start it, instead start it again if you need it after our code has finished running.
 <br><br>
 Program related instructions are in the report itself.
+<br>
+
+## Debugging 
+
+Sometimes, the program may throw some error or may take some more time (tolerable limit would 1-2 min as per our system). In that case do the following:<br>
+* If you are in mininet and the code is running for very long, Ctrl+C. Then Ctrl+D. Then rerun the code.
+* If the topology fails to build up (especially in question 2), run "sudo mn -c", then rerun the code.
+<br>
 
 ## Part I: Implement the routing functionality in mininet.
 
